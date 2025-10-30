@@ -52,7 +52,7 @@ npm ci
 ``` bash
 npx playwright test
 ```
-OR
+or
 ```bash
 npx playwright show-report
 ```

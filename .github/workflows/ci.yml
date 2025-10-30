@@ -3,9 +3,9 @@ name: Playwright API Tests CI
 # Triggers: on push or pull request to main branch
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   test:
