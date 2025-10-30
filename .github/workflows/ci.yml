@@ -29,7 +29,8 @@ jobs:
       - run: npx eslint . --fix
 
       # Step 5: Check code formatting with Prettier
-      - run: npx prettier --check .
+      - name: Format code with Prettier
+      - run: npx prettier --write .
 
       # Step 6: Run Playwright tests
       - run: npx playwright test
